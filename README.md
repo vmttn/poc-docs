@@ -1,0 +1,26 @@
+# Documentation experiments
+# Python
+*.py[cod]
+__pycache__/
+*.egg-info
+
+# Django
+db.sqlite3
+
+# VSCode
+.vscode/
+!.vscode/settings.json
+
+# Idea
+.idea/
+
+# Virtualenv
+.venv/
+venv/
+
+# Misc
+*.env
+!.template.env
+.tmp/
+.tox/
+.pytest_cache

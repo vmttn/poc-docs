@@ -1,0 +1,15 @@
+site_name: poc-mkdocs
+
+theme:
+  name: material
+
+nav:
+  - Contributing: contributing.md
+  - FAQ: faq.md
+
+plugins:
+  - mkdocstrings:
+      handlers:
+        python:
+          selection:
+            docstring_style: restructured-text
